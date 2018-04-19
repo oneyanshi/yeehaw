@@ -5,10 +5,10 @@
     // main function 
     window.onload = function(){
         let clock = buildTheClock();
-        attachDate();
         playAudio(); 
 
         setInterval(moveHands, 1000); 
+        setInterval(attachDate, 86399999); 
 
         let audioButton = document.getElementById("audio"); 
         audioButton.addEventListener("click", function(){ 

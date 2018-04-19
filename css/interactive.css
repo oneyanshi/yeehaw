@@ -1,13 +1,11 @@
 body{ 
+    text-align: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#header h1, h2{ 
-    text-align: center; 
-}
-
-#options { 
-    text-align: center; 
+a { 
+    color: darkblue; 
+    text-decoration: none; 
 }
 
 #circle{ 
